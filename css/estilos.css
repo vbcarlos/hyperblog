@@ -1,10 +1,7 @@
 body
 {
-<<<<<<< HEAD
-    color: blue;
-=======
-    color: red;
->>>>>>> cabecera
+
+    color: #333;
     text-align: left;
     font-family: "Arial"
 }
@@ -16,6 +13,11 @@ body
     border: 1px solid #DDD;
     margin: 0 auto;
 }
+#cabecera #logo
+{
+   width: 22px;
+   vertical-align: middle; 
+}
 #cabecera
 {
     background: #333;
@@ -26,4 +28,9 @@ body
 #container h1
 {
     font-size: 20px;
+}
+#post
+{
+    background: white;
+    padding: 1em;
 }
